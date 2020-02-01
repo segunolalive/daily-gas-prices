@@ -1,0 +1,46 @@
+{
+  "name": "daily-gas-prices-from-www.eia.gov",
+  "title": "Daily Gas Prices",
+  "description": "...",
+  "version": "1.0",
+  "keywords": ["gas", "prices", "daily"],
+  "licenses": [
+    {
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain",
+      "name": "ODC-PDDL-1.0"
+    }
+  ],
+  "sources": [
+    {
+      "title": "U.S. Energy Information Administration",
+      "path": "https://www.eia.gov/dnav/ng/hist/rngwhhdD.htm"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Joe Bloggs",
+      "email": "segunolalive@gmail.com",
+      "path": "http://www.segunolalive.com",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "path": "output/daily_prices.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "DATE",
+            "type": "string"
+          },
+          {
+            "name": "PRICE",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
