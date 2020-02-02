@@ -81,6 +81,8 @@ class GasPrice:
             start_date = self.__get_start_date(date)
             day_offset = 0
             for price in prices[i]:
+                if not price.text:
+                    continue
                 current_date = start_date + datetime.timedelta(days=day_offset)
                 current_date = current_date.strftime('%Y-%b-%d')
                 self.formatted_data.append([current_date, price.text])
