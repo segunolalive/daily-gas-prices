@@ -13,7 +13,7 @@ class GasPrice:
     """
 
     URL = "https://www.eia.gov/dnav/ng/hist/rngwhhdD.htm"
-    OUTPUT_DIR = "public/"
+    OUTPUT_DIR = "docs/"
     DAILY_PRICES = OUTPUT_DIR + "daily_prices.csv"
     html = None
     data = None
