@@ -11,10 +11,10 @@ class GasPrice:
     """
     a suite of utilities to generate csv version of daily gas prices from www.eia.gov
     """
-    URL = 'https://www.eia.gov/dnav/ng/hist/rngwhhdD.htm'
-    OUTPUT_DIR = 'output/'
-    DAILY_PRICES = OUTPUT_DIR + 'daily_prices.csv'
-    MONTHLY_PRICES = OUTPUT_DIR + 'monthly_prices.csv'
+
+    URL = "https://www.eia.gov/dnav/ng/hist/rngwhhdD.htm"
+    OUTPUT_DIR = "public/"
+    DAILY_PRICES = OUTPUT_DIR + "daily_prices.csv"
     html = None
     data = None
     formatted_data = []
