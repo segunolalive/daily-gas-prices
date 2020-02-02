@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a simple script for generating daily and monthy gas prices from Henry Hub gas prices
+This is a simple script for generating daily gas prices from Henry Hub gas prices
 
 ## Data source
 
