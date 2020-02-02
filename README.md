@@ -1,5 +1,7 @@
 # Data Wrangler Script
 
+[Line Graph  Visualization of the data](https://segunolalive.github.io/daily-gas-prices/)
+
 ## Introduction
 
 This is a simple script for generating daily gas prices from Henry Hub gas prices
