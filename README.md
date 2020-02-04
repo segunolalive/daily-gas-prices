@@ -39,7 +39,7 @@ git clone https://github.com/segunolalive/daily-gas-prices.git
 cd daily-gas-prices
 
 # Install dependencies
-pip3 install
+pip3 install -r requirements.txt
 
 # Run the script
 python3 gas_prices.py
