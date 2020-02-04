@@ -6,11 +6,14 @@ const spec = {
 
   data: { url: 'daily_prices.csv' },
   mark: {
-    type: 'line',
-    interpolate: 'monotone'
+    type: 'line'
   },
   encoding: {
     x: { field: 'date', type: 'temporal' },
-    y: { field: 'price', type: 'quantitative' }
+    y: { field: 'price', type: 'quantitative' },
+    tooltip: [
+      { field: 'date', type: 'temporal' },
+      { field: 'price', type: 'quantitative' }
+    ]
   }
 };
